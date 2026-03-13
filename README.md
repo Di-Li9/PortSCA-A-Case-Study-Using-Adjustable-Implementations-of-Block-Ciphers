@@ -49,12 +49,7 @@ This method requires high accuracy in recovering the mapping $\phi: p \mapsto v$
 
 | Target                                       | Expression                                                   |
 | -------------------------------------------- | ------------------------------------------------------------ |
-| Customized S-box                             |$
-\Delta_{0,1} = k_1 \oplus k_0 = p_{r,0} \oplus p_{s,1} \\
-\Delta_{0,2} = k_2 \oplus k_0 = p_{r,0} \oplus p_{t,1} \\
-\vdots \\
-\Delta_{0,15} = k_{15} \oplus k_0 = p_{r,0} \oplus p_{u,15}
-$ |
+| Customized S-box                             |$$\begin{array}{l}\Delta_{0,1} = k_1 \oplus k_0 = p_{r,0} \oplus p_{s,1} \\\Delta_{0,2} = k_2 \oplus k_0 = p_{r,0} \oplus p_{t,1} \\\vdots \\\Delta_{0,15} = k_{15} \oplus k_0 = p_{r,0} \oplus p_{u,15}\end{array}$$|
 | MDS Matrix (with 1–15 plaintext bytes fixed) | $v = a \cdot v_s \oplus b$                                 |
 | Key-dependent S-box                          | $v_{rk^0,rk^1} = S^{rk^1}(p_i \oplus rk^0)$                  |
 
