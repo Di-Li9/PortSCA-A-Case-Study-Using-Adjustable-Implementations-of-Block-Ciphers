@@ -84,5 +84,5 @@ The `Model/` directory contains the models used in the experiments along with th
 
 ## Additional Notes
 
-In **Figure 12(b)**, the legend labels for $Sbox(P\oplus K)$, $Sbox(P\oplus K)\oplus Mask[0]$, and $Mask[0]$ are incorrectly assigned. Specifically, the labels for $Sbox(P\oplus K)$ and $Mask[0]$ should be swapped to maintain consistency with **Figure 12(a)**.
+In **Figure 12(b)**, the legend labels for $Sbox(P[0]\oplus K[0])$, $Sbox(P[0]\oplus K[0])\oplus Mask[0]$, and $Mask[0]$ are incorrectly assigned. Specifically, the labels for $Sbox(P[0]\oplus K[0])$ and $Mask[0]$ should be swapped to maintain consistency with **Figure 12(a)**.
 ![pic2](https://github.com/Di-Li9/PortSCA-A-Case-Study-Using-Adjustable-Implementations-of-Block-Ciphers/blob/master/SNR_PoI.png)
